@@ -424,3 +424,13 @@ body.access-locked{overflow:hidden}.access-gate{position:fixed;inset:0;z-index:9
 .review-actions{display:flex;gap:10px;flex-wrap:wrap}.review-actions button{min-width:170px}
 @media(max-width:1000px){.final-flow{grid-template-columns:repeat(2,1fr)}.file-meta,.detected-grid{grid-template-columns:repeat(2,1fr)}.page-grid{grid-template-columns:repeat(4,1fr)}.score-shell{grid-template-columns:1fr}.evidence-grid{grid-template-columns:1fr}}
 @media(max-width:650px){.final-flow,.file-meta,.detected-grid,.certificate-grid,.page-grid{grid-template-columns:1fr}.score-ring{width:180px;height:180px}.score-ring:before{width:136px;height:136px}}
+
+
+/* V2 estricta: auditoría metodológica y bloqueos de certificación */
+.strict-audit-box{margin-top:18px;padding:18px;border:2px solid #b72d2d;border-radius:14px;background:#fff8f7}
+.strict-audit-box h4{margin:0 0 12px;color:#8f1f1f;font-size:18px}
+.strict-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}
+.strict-grid article{display:flex;flex-direction:column;gap:4px;padding:13px;border:1px solid #ead2cf;border-radius:11px;background:#fff}
+.strict-grid b{color:#8f1f1f}.strict-grid span{font-size:13px;color:#4f5d6d;line-height:1.45}
+.issue.critical{border-left-color:#8a1111;background:#fff1f0}.issue.critical>b{color:#8a1111}
+@media(max-width:850px){.strict-grid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.strict-grid{grid-template-columns:1fr}}

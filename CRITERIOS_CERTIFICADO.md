@@ -1,36 +1,30 @@
-# CRITERIOS DEL CERTIFICADO PROYECTA-IA
+# CRITERIOS PARA EMITIR EL CERTIFICADO PROYECTA-IA
 
-El PDF generado por el chatbot se denomina **Certificado de revisión preliminar automatizada PROYECTA-IA**.
+## El certificado se habilita solo cuando
 
-## Se habilita solo si
-- puntaje final >= 90/100;
-- no existen bloqueos críticos.
+- El Word completo obtiene **90/100 o más**.
+- No existe ningún **error crítico** detectado.
+- No existe ningún **bloqueo automático**.
 
-## Anverso
-Incluye:
-- nombre del postulante;
-- título del proyecto;
-- nombre del archivo Word;
-- puntuación;
-- fecha/hora;
-- identificador de certificado;
-- huella SHA-256 del Word;
-- aviso de que solo habilita una revisión docente posterior.
+## Una nota alta NO compensa
 
-## Reverso
-Enumera la revisión humana pendiente:
-- identidad y documentación;
-- correspondencia del archivo con la huella;
-- carta aval del tutor dirigida al HCC;
-- formato visual definitivo e impresión;
-- figuras y tablas;
-- existencia de fuentes APA;
-- consistencia técnica del diseño;
-- autenticidad de pruebas y mediciones;
-- revisión económica;
-- originalidad/plagio;
-- redacción final;
-- emisión eventual de carta de conformidad.
+- metodología incorrecta;
+- planteamiento subjetivo sin datos/fuentes;
+- Marco Teórico sin citas suficientes;
+- Ingeniería del Proyecto desordenada o incompleta;
+- Capítulo IV sin pruebas, resultados, análisis y evaluación técnica defendibles;
+- costos mal clasificados o duplicados;
+- conclusiones sin relación con objetivos;
+- fallas graves APA 6.
 
-## Naturaleza del documento
-NO es aval institucional, carta de conformidad, aprobación del tutor, aprobación del HCC, autorización de defensa ni calificación del tribunal.
+## Después del certificado
+
+El estudiante envía al docente:
+
+1. Word final correspondiente a la huella SHA-256 del certificado.
+2. Certificado PDF PROYECTA-IA.
+3. C.I.
+4. Registro Universitario.
+5. Foto/escaneo de la carta aval del tutor dirigida al HCC indicando que el Proyecto de Grado fue cumplido.
+
+El certificado continúa siendo preliminar y no sustituye la conformidad docente ni la decisión institucional.

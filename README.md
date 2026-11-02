@@ -1,54 +1,55 @@
-# PROYECTA-IA — REVISIÓN FINAL INTEGRAL
+# PROYECTA-IA — REVISIÓN FINAL INTEGRAL · V2 ESTRICTA
 
-## Nombre recomendado del repositorio GitHub
+## Nombre del repositorio
+
+Mantener el mismo repositorio:
+
 `proyecta-ia-revision-final`
 
-URL esperada al activar GitHub Pages:
+URL esperada:
+
 `https://luisctito-sketch.github.io/proyecta-ia-revision-final/`
 
-## Propósito
-Módulo final de control metodológico y técnico previo al envío del Proyecto de Grado al docente.
+## Regla de certificación
 
-El estudiante debe cargar el archivo **.DOCX completo y final**. La herramienta procesa el Word en el navegador y emite una ponderación preliminar sobre 100 puntos.
+El certificado PDF solo se habilita si se cumplen simultáneamente:
 
-### Umbral
-- **90/100 o más y sin bloqueos críticos:** APTO PARA REVISIÓN DOCENTE.
-- **Menos de 90:** debe corregirse y volver a revisarse antes de enviarlo.
+1. Puntaje bruto **≥ 90/100**.
+2. **CERO errores críticos**.
+3. **CERO bloqueos automáticos**.
 
-## Certificado
-Cuando el documento supera 90/100 se habilita un PDF de dos páginas denominado:
-**Certificado de revisión preliminar PROYECTA-IA**.
+Una nota alta no compensa una falla metodológica o técnica crítica.
 
-El certificado:
-- muestra el puntaje;
-- identifica el archivo revisado mediante SHA-256;
-- no reemplaza aval del tutor, carta de conformidad, aprobación institucional ni evaluación del tribunal;
-- incluye en el reverso los controles que quedan a cargo del docente.
+## Cambios principales de esta actualización
 
-## Entrega posterior al docente
-El estudiante debe remitir por WhatsApp:
-1. Word final;
-2. certificado PROYECTA-IA;
-3. C.I.;
-4. Registro Universitario;
-5. foto/escaneo de la carta aval del tutor dirigida al HCC indicando que el Proyecto de Grado fue cumplido.
-
-## Acceso centralizado
-Carga el mismo archivo central de autorización:
-`https://luisctito-sketch.github.io/proyecta-ia-acceso/access.js`
-
-No es necesario mantener una lista de C.I. dentro de este repositorio.
+- El Planteamiento del Problema se revisa dentro de su apartado y debe presentar evidencia cuantitativa y fuentes, no solo afirmaciones subjetivas.
+- Las Justificaciones, Alcances y Limitaciones se revisan por pertinencia y concisión; se advierte cuando contienen teoría, procedimientos o información sobrante.
+- El Marco Teórico se audita por apartados: se detectan secciones sustantivas sin citas/fuentes.
+- La Ingeniería del Proyecto se revisa por secuencia lógica y cobertura de los Objetivos Específicos técnicos.
+- El Capítulo IV debe respetar la lógica del chatbot especializado: **4.1 Pruebas → 4.2 Resultados → 4.3 Análisis Técnico**, con al menos tres pruebas pertinentes, criterio de aceptación, evidencia y evaluación técnica contra referencias.
+- El Capítulo V usa como estructura base: **Hardware, Software, Insumos, Recursos Humanos y Costo Total**.
+- Se consideran errores críticos las clasificaciones improcedentes de contabilidad industrial como “materia prima”, “costos indirectos de fabricación” o “costo de producción” cuando se usan para reclasificar componentes del prototipo.
+- VAN/TIR/ROI/rentabilidad no se incorporan automáticamente al Análisis Económico.
+- Se revisa la alineación de montos monetarios a la derecha y el tamaño de 10 pt en tablas cuando el XML permite detectarlo.
+- Se detectan posibles partidas repetidas en varias tablas de costos.
+- El resultado muestra el puntaje bruto y, por separado, los bloqueos/errores críticos.
+- El prompt de revisión profunda fue reescrito con todos estos controles.
 
 ## Archivos
+
 - `index.html`
 - `styles.css`
 - `app.js`
+- `README.md`
 - `RUBRICA_REVISION_FINAL_100_PUNTOS.md`
 - `CRITERIOS_CERTIFICADO.md`
-- `README.md`
 
-## Librerías web
-El portal usa JSZip para inspeccionar el DOCX y jsPDF para generar el certificado. Ambas librerías se cargan desde CDN.
+## Acceso
 
-## Limitación metodológica importante
-La puntuación es un control automático preliminar. No puede comprobar por sí sola la autenticidad física del prototipo, la veracidad de una medición, la existencia real de cada fuente bibliográfica, el gramaje del papel o el juicio profesional final del docente.
+Continúa usando la base central de C.I. de PROYECTA-IA:
+
+`https://luisctito-sketch.github.io/proyecta-ia-acceso/access.js`
+
+## Nota
+
+La herramienta realiza una revisión preliminar automatizada. No sustituye la revisión humana del docente, el aval del tutor, el HCC ni la evaluación del tribunal.

@@ -1,33 +1,33 @@
-# RÚBRICA DE REVISIÓN FINAL — 100 PUNTOS
+# RÚBRICA — REVISIÓN FINAL INTEGRAL · 100 PUNTOS
 
-| Área | Puntos |
-|---|---:|
-| Formato institucional y preliminares | 12 |
-| Capítulo I. Generalidades | 16 |
-| Capítulo II. Marco Teórico y Conceptual | 10 |
-| Capítulo III. Ingeniería del Proyecto / Marco Práctico | 22 |
-| Capítulo IV. Pruebas, Resultados, Análisis y/o Evaluación Técnica | 14 |
-| Capítulo V. Análisis y/o Evaluación Económica | 8 |
-| Capítulo VI. Conclusiones y Recomendaciones | 8 |
-| Citas y referencias APA 6 | 4 |
-| Figuras y tablas | 3 |
-| Redacción científica y corrección | 3 |
-| **TOTAL** | **100** |
+La suma máxima continúa siendo 100 puntos, pero la certificación requiere además **cero errores críticos**.
 
-## Umbral
-90/100, sin bloqueos críticos.
+| Criterio | Puntos | Revisión estricta |
+|---|---:|---|
+| Formato institucional y preliminares | 12 | Papel, márgenes, fuente, interlineado, jerarquía, paginación, resumen |
+| Capítulo I · Generalidades | 16 | Estructura, planteamiento con datos/fuentes, formulación, objetivos, justificaciones pertinentes, alcances/limitaciones concisos y metodología |
+| Capítulo II · Marco Teórico y Conceptual | 10 | ≤25 %, pertinencia, citas por apartados, fuentes, redacción científica |
+| Capítulo III · Ingeniería del Proyecto | 22 | Orden lógico, arquitectura, selección, cálculos, diseño, software/firmware, implementación y cobertura de objetivos |
+| Capítulo IV · Pruebas/Resultados/Análisis/Evaluación Técnica | 14 | 4.1/4.2/4.3, ≥3 pruebas, criterios de aceptación, evidencia, indicadores y comparación con referencias |
+| Capítulo V · Análisis Económico | 8 | Hardware, Software, Insumos, Recursos Humanos, Total; sin duplicaciones ni categorías improcedentes |
+| Capítulo VI · Conclusiones/Recomendaciones | 8 | Correspondencia con objetivos y evidencias |
+| APA 6 | 4 | Citas, referencias y correspondencia |
+| Figuras y tablas | 3 | Numeración, fuente, formato y legibilidad |
+| Redacción científica | 3 | Impersonal, extensión, ortografía/sintaxis |
+| **TOTAL** | **100** | |
 
-## Bloqueos críticos
-Aunque la suma bruta alcance 90, la aplicación limita el puntaje a 89 si no se detecta alguno de los capítulos I-VI, el Objetivo General, las conclusiones/recomendaciones o una lista bibliográfica suficiente.
+## Errores críticos bloqueantes
 
-## Regla del Marco Teórico
-El Capítulo II no debe superar el 25 % de las páginas comprendidas desde el inicio del Capítulo I hasta el final del Capítulo VI. El cálculo usa los números de página de la tabla de contenido y puede ser corregido manualmente por el estudiante si Word no permite extraerlos.
+Entre otros:
 
-## Jerarquía de títulos usada por este módulo
-- CAPÍTULO: Times New Roman 16, negrilla, MAYÚSCULAS.
-- 1.1: Times New Roman 14, negrilla, MAYÚSCULAS.
-- 1.1.1: Times New Roman 12, negrilla, MAYÚSCULAS.
-- Desde 1.1.1.1: Times New Roman 12, negrilla, tipo oración/minúsculas.
-- Texto principal: Times New Roman 12 normal.
+- Planteamiento del problema sin evidencia objetiva suficiente.
+- Formulación/Objetivo General ausentes o incoherentes.
+- Marco Teórico con proporción alta de apartados sustantivos sin citas.
+- Ingeniería incompleta, desordenada o que no demuestra los objetivos técnicos.
+- Capítulo IV sin separación Pruebas → Resultados → Análisis Técnico, sin criterios de aceptación, sin evidencia o sin evaluación contra referencias.
+- Capítulo V con “materia prima”, “mano de obra directa”, “costos indirectos de fabricación” o “costo de producción” usados como estructura improcedente; evaluación financiera no justificada; partidas duplicadas.
+- Conclusiones que no cierran los objetivos.
+- Correspondencia cita-referencia gravemente deficiente.
+- Uso reiterado de primera persona en el cuerpo científico.
 
-Esta última regla corrige la contradicción observada en la tabla tipográfica institucional, donde el ejemplo visual aparece en minúsculas aunque la descripción indique mayúsculas.
+**Regla:** puntaje ≥90 + 0 errores críticos + 0 bloqueos = APTO PARA REVISIÓN DOCENTE.
